@@ -28,6 +28,10 @@ extra:
 
 nav:
   - Home: index.md
+  - How-To Guides:
+    - Site Structure & Navigation: how-to/site-structure.md
+    - Adding Images: how-to/images.md
+    - Embedding Video: how-to/video.md
   - Section One:
     - Page One: 01_section-one/page-one.md
     - Page Two: 01_section-one/page-two.md
