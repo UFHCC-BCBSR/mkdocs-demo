@@ -1,0 +1,38 @@
+site_name: My Project Documentation
+site_description: A demo MkDocs site with GitHub Actions auto-deployment
+docs_dir: docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    primary: black
+  features:
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+  font:
+    text: Roboto
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - assets/css/custom.css
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Section One:
+    - Page One: 01_section-one/page-one.md
+    - Page Two: 01_section-one/page-two.md
+  - Section Two:
+    - Page Three: 02_section-two/page-three.md
+
+copyright: >
+  © 2026 Your Group Name Here
