@@ -1,5 +1,7 @@
-site_name: My Project Documentation
-site_description: A demo MkDocs site with GitHub Actions auto-deployment
+# mkdocs.yml — located at the root of your repo
+
+site_name: MkDocs Demo
+site_description: A reusable MkDocs site template with GitHub Actions auto-deployment
 docs_dir: docs
 
 theme:
